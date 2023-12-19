@@ -15,6 +15,10 @@ code {
 #hero1{
   color: orange;
 } */
+
+
+
+
 .name-section{
   font-size: 6rem;
 }
@@ -41,3 +45,6 @@ code {
   padding-top: 2rem;
 }
 
+.bgnavbarcolor {
+  background-color: rgba(91, 91, 199, 0.89);
+}

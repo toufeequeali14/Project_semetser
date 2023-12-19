@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from 'react-router-dom';
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
+import BooksSection from "./components/BooksSection";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -19,17 +20,18 @@ function App() {
       <Routes>      
         <Route path='/header' element={<Header />} />
         <Route path='/herosection' element={<HeroSection />} />
-        <Route path='/projects' element={<Projects />} />
-        <Route path='/contact' element={<Contact />} />
+        {/* <Route path='/projects' element={<Projects />} /> */}
+        {/* <Route path='/contact' element={<Contact />} /> */}
         <Route path='/buyer' element={<buyerReview />} />
         <Route path='/footer' element={<Footer />} />
       </Routes>
 
    
       <HeroSection />
-      <Projects />
+      <BooksSection />
+      {/* <Projects /> */}
   
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
       {/* {buyerReview} */}
       {/* {sellerReview} */}
